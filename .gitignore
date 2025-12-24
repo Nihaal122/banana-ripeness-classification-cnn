@@ -1,0 +1,19 @@
+# datasets
+train/
+test/
+
+# environments
+new_banana_env/
+.venv/
+
+# models
+exported_models/
+*.h5
+*.tflite
+
+# python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
