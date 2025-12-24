@@ -41,12 +41,33 @@ This project automates ripeness detection using deep learning to classify banana
 ## 📂 Dataset
 Dataset not included in this repository due to large size (~70GB).
 
-**Dataset Source:**  
-👉 Paste dataset link here
+Source: Telkom University Dataverse
+Dataset Link:
+🔗 https://dataverse.telkomuniversity.ac.id/file.xhtml?persistentId=doi:10.34820/FK2/GJBZ0X/7GJYWP&version=1.0
 
-Folder structure:
-train/  
-test/
+Description:
+
+High-quality banana images collected in Indonesia
+
+Images categorized into ripeness stages
+
+Suitable for image classification and CNN training
+
+⚠️ Note:
+The dataset is not included in this repository due to its large size (~70GB).
+Please download it manually from the link above and place it in the following structure:
+
+data/
+├── train/
+│   ├── Unripe/
+│   ├── Half-ripened/
+│   ├── Ripe/
+│   └── Overripe/
+└── test/
+    ├── Unripe/
+    ├── Half-ripened/
+    ├── Ripe/
+    └── Overripe/
 
 ---
 
